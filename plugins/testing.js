@@ -110,9 +110,9 @@ async (conn, mek, m, {
     const uptime = await runtime(process.uptime());
 
     // Load external bot details
-    const details = (await axios.get('https://mv-visper-full-db.pages.dev/Main/main_var.json')).data;
+    const details = (await axios.get('https://raw.githubusercontent.com/LOAD-DILISHA/DATABASE/refs/heads/main/main_var.json')).data;
 
-        const MNG = `*🫟 VISPER MD - Bot Menu*
+        const MNG = `*🫟 𝐒𝐀𝐌𝐔𝐑𝐀𝐈 𝐁𝐎𝐓 𝐌𝐄𝐍𝐔*
 
 > *Uptime:* ${uptime}
 > *RAM Usage:* ${ramUsage}
@@ -141,7 +141,7 @@ async (conn, mek, m, {
                     sections: [
                         {
                             title: "SELECT MENU",
-                            highlight_label: "VISPER-MD",
+                            highlight_label: "SAMURAI_SPIRITS-MD",
                             rows: [
                                 {
                                     header: "1",
