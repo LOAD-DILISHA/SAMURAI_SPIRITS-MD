@@ -25,7 +25,7 @@ async (conn, mek, m, {
 }) => {
     try {
         
-        const response = await axios.get("https://mv-visper-full-db.pages.dev/Main/main_var.json");
+        const response = await axios.get("https://raw.githubusercontent.com/LOAD-DILISHA/DATABASE/refs/heads/main/main_var.json");
         const details = response.data;
 
         const result = `*🧿VISPER-MD🧿*
@@ -155,8 +155,8 @@ const session = `${session_id}`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304606757133@newsletter',
-                        newsletterName: 'NADEEN-MD',
+                        newsletterJid: '120363405102534270@newsletter',
+                        newsletterName: 'SAMURAI_SPIRITS-MD',
                         serverMessageId: 101
                     }
                 }
@@ -171,8 +171,8 @@ await conn.sendMessage(
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304606757133@newsletter',
-                        newsletterName: 'NADEEN-MD',
+                        newsletterJid: '120363405102534270@newsletter',
+                        newsletterName: 'SAMURAI_SPIRITS-MD',
                         serverMessageId: 101
                     }
                 }
@@ -563,7 +563,7 @@ cmd({
 
             const text = progress < 100
                 ? `⚙️ Loading... ${progress}%\n[${bar}]`
-                : `✅ *Loading Completed!*\n\nලෝඩ් උනාට මුකුත් නෑ 👾\n\n${config.FOOTER}`;
+                : `✅ *Loading Completed!*\n\nමුකුත් නෑ ආවා මෙතන 👾\n\n${config.FOOTER}`;
 
             await conn.sendMessage(from, {
                 edit: msg.key,
