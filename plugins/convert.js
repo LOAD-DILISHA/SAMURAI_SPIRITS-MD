@@ -166,7 +166,7 @@ try{
       isQuotedImage ? await m.quoted.download(nameJpg) : await m.download(nameJpg)
     let sticker = new Sticker(nameJpg + '.jpg', {
       pack: pushname, // The pack name
-      author: '©VISPER-MD', // The author name
+      author: '© SAMURAI_SPIRITS-MD', // The author name
       type: q.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
       categories: ["🤩", "🎉"], // The sticker category
       id: "12345", // The sticker id
@@ -230,7 +230,7 @@ try{
       },
     });
 await pipeline(rbg, fs.createWriteStream(namePng + ".png"));
-let dat = `*🌆 VISPER-MD BACKGROUND REMOVER 🌆*
+let dat = `*🌆 𝐁𝐀𝐂𝐊𝐆𝐑𝐎𝐔𝐍𝐃 𝐑𝐄𝐌𝐎𝐕𝐄𝐑 𝐒𝐀𝐌𝐔𝐑𝐀𝐈 🌆*
 `
 const buttons = [
 {buttonId: prefix + 'rbgi ' + namePng + ".png", buttonText: {displayText: 'IMAGE'}, type: 1},
@@ -279,7 +279,7 @@ try{
 await conn.sendMessage(from, { react: { text: '📥', key: mek.key }})
 let sticker = new Sticker(q, {
   pack: pushname, // The pack name
-  author: 'ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ•', // The author name
+  author: '𝐒𝐀𝐌𝐔𝐑𝐀𝐈 𝐒𝐏𝐈𝐑𝐈𝐓𝐒 𝐌𝐃•', // The author name
   type: q.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
   categories: ["🤩", "🎉"], // The sticker category
   id: "12345", // The sticker id
@@ -382,7 +382,7 @@ cmd(
 
       // Convert the sticker buffer to an image (using Sticker class)
       const sticker = new Sticker(stickerBuffer, {
-        pack: "@VISPER-MD",
+        pack: "@SAMURAI_SPIRITS-MD",
         author: "",
         type: "FULL", // This may not be needed, but ensures we're using the full sticker format
         quality: 100, // Quality of the output image (0-100)
@@ -650,7 +650,7 @@ async (conn, mek, m, { from, args, reply }) => {
         const keywords = packageData.keywords ? packageData.keywords.join(", ") : "No keywords provided";
         // Send the package details as a reply (without image)
         let replyText = `
-*\`💃 VISPER NPM SEARCH 💃\`*
+*\`⛩️ 𝐍𝐏𝐌 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐒𝐓𝐎𝐑𝐄 ⛩️\`*
 
 *┌──────────────────*
 *├ 🦑 Npm name :* ${packageName}
