@@ -1,9 +1,9 @@
 {
-  "name": "MOVIE-VISPER MD",
-  "version": "4.0.0",
+  "name": "SAMURAI_SPIRITS-MD",
+  "version": "2.0.0",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Movie-Visper",
-    "stop": "pm2 stop Movie-Visper",
+    "start": "pm2 start index.js --deep-monitoring --attach --name Samurai-Spirits",
+    "stop": "pm2 stop Samurai-Spirits",
     "restart": "git pull && npm stop && npm start",
     "stash": "git stash && git stash drop"
   },
@@ -34,7 +34,7 @@
     "human-readable": "latest",
     "image-size": "latest",
     "javascript-obfuscator": "latest",
-    "jimp": "^0.16.1",
+    "jimp": "^0.22.12",
     "link-preview-js": "latest",
     "megajs": "latest",
     "mongoose": "latest",
